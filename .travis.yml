@@ -2,8 +2,8 @@ language: go
 install:
 - go get -v github.com/spf13/hugo
 script:
--hugo version
--make build
+- hugo version
+- make build
 branches:
  only:
- -master
+ - master
